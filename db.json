@@ -1,26 +1,31 @@
-{   
-    {
-        "userId": 1,
-        "id": 1,
-        "title": "delectus aut autem",
-        "completed": false
-    },
-    {
-        "userId": 1,
-        "id": 2,
-        "title": "quis ut nam facilis et officia qui",
-        "completed": false
-    },
-    {
-        "userId": 1,
-        "id": 3,
-        "title": "fugiat veniam minus",
-        "completed": false
-    },
-    {
-        "userId": 1,
-        "id": 4,
-        "title": "et porro tempora",
-        "completed": true
-    },
+{{
+  「投稿」：[
+    {{
+      "id"：1、
+      「タイトル」：「投稿1」
+    }、
+    {{
+      "id"：2、
+      「タイトル」：「投稿2」
+    }、
+    {{
+      「id」：3、
+      「タイトル」：「投稿3」
+    }
+  ]、
+  「コメント」：[
+    {{
+      "id"：1、
+      「本文」：「コメント」、
+      "postId"：1
+    }、
+    {{
+      "id"：2、
+      「本文」：「コメント」、
+      "postId"：1
+    }
+  ]、
+  "プロファイル"：{
+    "名前"： "typicode"
+  }
 }
