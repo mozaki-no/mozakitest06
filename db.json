@@ -1,31 +1,23 @@
-{{
-  「投稿」：[
-    {{
-      "id"：1、
-      「タイトル」：「投稿1」
-    }、
-    {{
-      "id"：2、
-      「タイトル」：「投稿2」
-    }、
-    {{
-      「id」：3、
-      「タイトル」：「投稿3」
-    }
-  ]、
-  「コメント」：[
-    {{
-      "id"：1、
-      「本文」：「コメント」、
-      "postId"：1
-    }、
-    {{
-      "id"：2、
-      「本文」：「コメント」、
-      "postId"：1
-    }
-  ]、
-  "プロファイル"：{
-    "名前"： "typicode"
-  }
-}
+{
+　　”test-data”: [
+　　{
+　　　“class-id”:10,
+　　　“name”: “foo”,
+　　　“test-result”:[91, 78, 87],
+　　　“passed”:true
+　　},
+　　{
+　　　“class-id”:11,
+　　　“name”: “bar”,
+　　　“test-result”:[45, null, 59],
+　　　“passed”:false
+　　},
+　　{
+　　　“class-id”:12,
+　　　“name”: “baz”,
+　　　“test-result”:[99, 96, 97],
+　　　“passed”:true
+　　},
+　　　　　：
+　　]
+　}
